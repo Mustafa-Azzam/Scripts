@@ -1,7 +1,7 @@
 #!/bin/bash
 
 current_ip=$(curl ifconfig.co)
-public_ip=51.68.213.59
+public_ip=<YOUR PUBLIC IP>
 
 if [[ $current_ip == $public_ip ]]; then
         echo "VPN Is Running.."
